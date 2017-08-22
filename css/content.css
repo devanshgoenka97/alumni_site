@@ -1,0 +1,210 @@
+h1,h2,h3,h4{
+	font-family: 'Acme', sans-serif;
+}
+
+#deanimage{
+	height: 36vh;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.imagedescription{
+	background-color: rgba(220,230,230,0.5);
+	height: 36vh;
+}
+
+.messagefromdeancontent{
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+#myCarousel{
+	margin-bottom: 4vh;
+}
+
+#notablealumniCarousel{
+	padding: 2vh 2vh 2vh 2vh;
+}
+
+.general-content-wrapper{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Acme', sans-serif;
+	border-radius: 4px;
+}
+
+.textcontainer{
+	font-family: 'Acme', sans-serif;
+	background-color: rgba(220,230,230,0.5);
+	margin-left: 20px;
+	padding: 10px;
+	min-height: 300px;	
+}
+
+hr{
+   border-color: black;
+}
+
+.imagetext{
+	font-size: 2vh;
+	font-family: 'Acme', sans-serif;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#mainheader{
+   font-size: 5vh;
+   margin-top: 4vh;
+   margin-bottom: 0px;
+}
+
+#email{
+	font-weight: 600;
+}
+
+#phone{
+	font-weight: 600;
+}
+
+.imagewrapper{
+   margin-bottom: 4vh;
+}
+
+.messagewrapper{
+	background-color: rgba(220,230,230,0.5);
+	padding-bottom: 4vh;
+}
+
+.team{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.team-text{
+	height: 200px;
+	background-color: rgba(220,230,230,0.5);
+}
+
+.team-image{
+	width: 100%;
+	height: 200px;
+}
+
+.shadow{
+	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.font-weight-600{
+	font-weight: 600;
+}
+
+.form-wrapper{
+	margin-left: 150px;
+}
+
+.text-left{
+	text-align: left;
+}
+
+#home-carousel{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dob{
+	line-height: 33.99px;
+}
+
+.search-text{
+   line-height: 33px;
+}
+
+.carousel-inner>.item>img{
+	width: 100%;
+	height: 600px;
+}
+
+#myCarousel>.carousel-inner{
+	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.carousel-inner>.item>.row>.col-md-4>img{
+	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 300px;
+}
+
+#newreg{
+	display: inline-block;
+}
+
+.modulator{
+	margin-top: 30px;
+}
+
+#features {
+  margin-bottom: 4vh;
+  min-height: 300px;
+  text-align: center;
+  background-image: url(../img/twitter-bg.jpg);
+}
+
+#objectives {
+  margin-bottom: 4vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 600px;
+  text-align: center;
+  background-image: url(../img/aims.jpg);
+  box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#aims-wrap{
+	margin-top: 8vh;
+	background-color: rgba(220,230,230,0.5);
+}
+
+#parallax-text{
+   font-size: 48px;	
+   font-family: 'Acme', sans-serif;
+   color: black;
+}
+
+#features i {
+  color: white;
+  margin-top: 80px;
+  font-size: 48px;
+}
+
+#features p{
+	color: white;
+}
+
+.black-text{
+	color: black;
+}
+
+#features h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: white;
+}
+
+#features .slider-overlay {
+  opacity: 0.8;
+}
+
+.timer{
+	color: white;
+}
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

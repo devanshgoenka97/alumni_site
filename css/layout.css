@@ -1,0 +1,84 @@
+.header{
+	background-color: rgba(220,230,230,0.5);
+	color:#000;	
+}
+
+.header-text{
+	padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.primary-header-text{
+	font-family: 'Acme', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -4vh;
+}
+
+.secondary-header-text{
+	font-family: 'Acme', sans-serif;
+}
+
+.logo{
+	height: 13%;	
+	width: 13%;
+}
+
+.navbar{
+	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
+	margin-bottom: 0px;
+}
+
+.navbar-header{
+	padding-left: 10px;
+}
+
+.no-top-bottom-margin{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.dropdown-menu {     
+	background-color: black;  
+}
+
+.navbar-nav > li > .dropdown-menu a{   
+	color: #9d9d9d;  
+}
+
+.navbar-nav > li > .dropdown-menu a:hover{   
+	background-color:black;
+	color: white;  
+}
+
+.no-left-right-padding{
+	padding-left: 30px;
+	padding-right: 0px;
+}
+
+.content{
+	position: relative;
+	min-height: 520px;
+}
+
+.main-content{
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.foot{
+	background-color: black;
+	color:white;
+	line-height: 40px;
+	min-height: 40px;
+	max-height: 40px;
+	font-family: 'Acme', sans-serif;
+}
+
+.affix{
+	top:0;
+	z-index: 1;
+}
