@@ -179,33 +179,22 @@ hr{
 	display: inline-block;
 }
 
-.modulator{
-	margin-top: 30px;
+.welcome-wrap{
+	margin-top: 4vh;
 }
 
 #objectives {
-  margin-bottom: 4vh;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  min-height: 600px;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  min-height: 400px;
   text-align: center;
   background-image: url(../img/aims.jpg);
-  box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
-}
-
-#aims-wrap{
-	margin-top: 8vh;
-	background-color: rgba(220,230,230,0.5);
 }
 
 #parallax-text{
-   font-size: 48px;	
-   font-family: 'Acme', sans-serif;
+   font-size: 24px;	
+   font-family: 'Raleway';
    color: black;
-}
-
-.black-text{
-	color: black;
 }
 
 .parallax {

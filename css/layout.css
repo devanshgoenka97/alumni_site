@@ -64,7 +64,7 @@ body{
 }
 
 .social-icons>a:hover {
-	background-color: black;
+	background-color: #00274d;
 }
 
 .social-icons>a:hover .icons{
@@ -74,6 +74,7 @@ body{
 .navbar{
 	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
 	margin-bottom: 0px;
+	background-color: #00274d;
 }
 
 .navbar-header{
@@ -87,6 +88,14 @@ body{
 
 .dropdown-menu {     
 	background-color: black;  
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #ccc;
 }
 
 .navbar-nav > li > .dropdown-menu a{   
@@ -126,8 +135,10 @@ body{
 }
 
 .affix{
+	position: fixed;
 	top:0;
-	z-index: 1;
+	width: 97.8%;
+	z-index: 1000;
 }
 
 #fillable{
