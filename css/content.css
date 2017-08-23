@@ -1,5 +1,11 @@
-h1,h2,h3,h4{
-	font-family: 'Acme', sans-serif;
+hr{
+   padding-top: 4vh;
+   border-color: black;
+   opacity: 0.3;
+}
+
+#homewrapper{
+	margin: 0 auto;
 }
 
 #deanimage{
@@ -18,33 +24,12 @@ h1,h2,h3,h4{
 	margin-bottom: 6vh;
 }
 
-#myCarousel{
-	margin-bottom: 4vh;
-}
-
-#notablealumniCarousel{
-	padding: 2vh 2vh 2vh 2vh;
-}
-
-.general-content-wrapper{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'Acme', sans-serif;
-	border-radius: 4px;
-}
-
 .textcontainer{
 	font-family: 'Acme', sans-serif;
 	background-color: rgba(220,230,230,0.5);
 	margin-left: 20px;
 	padding: 10px;
 	min-height: 300px;	
-}
-
-hr{
-   border-color: black;
 }
 
 .imagetext{
@@ -100,18 +85,71 @@ hr{
 	font-weight: 600;
 }
 
+.first-card{
+	width: 18%;
+}
+
+.middle-card{
+	margin-left: 6vh;
+	margin-right: 6vh;
+	width: 57%;
+}
+
+.last-card{
+	width: 18%;
+	background-color: #fff;
+}
+
+.card-header{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.event-row{
+	background-color: #fff;
+}
+
+.links-row{
+	margin-top: 3vh;
+	background-color: #fff;
+}
+
+.event-list{
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.event-text{
+	padding-top: 2vh;
+	padding-bottom: 8vh;
+	font-family: 'Raleway';
+}
+
+.event-date{
+	padding-bottom: 1vh;
+	border-bottom: 0.5px solid rgba(0,0,255,0.5);
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.view-link{
+	text-decoration: none;
+}
+
+.view-all{
+    color: rgba(0,0,255,0.7);
+    font-family: 'Raleway';
+}
+
 .form-wrapper{
 	margin-left: 150px;
 }
 
 .text-left{
 	text-align: left;
-}
-
-#home-carousel{
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .dob{
@@ -124,7 +162,7 @@ hr{
 
 .carousel-inner>.item>img{
 	width: 100%;
-	height: 600px;
+	height: 400px;
 }
 
 #myCarousel>.carousel-inner{
@@ -143,13 +181,6 @@ hr{
 
 .modulator{
 	margin-top: 30px;
-}
-
-#features {
-  margin-bottom: 4vh;
-  min-height: 300px;
-  text-align: center;
-  background-image: url(../img/twitter-bg.jpg);
 }
 
 #objectives {
@@ -173,33 +204,8 @@ hr{
    color: black;
 }
 
-#features i {
-  color: white;
-  margin-top: 80px;
-  font-size: 48px;
-}
-
-#features p{
-	color: white;
-}
-
 .black-text{
 	color: black;
-}
-
-#features h3 {
-  margin-top: 15px;
-  font-size: 30px;
-  margin-bottom: 7px;
-  color: white;
-}
-
-#features .slider-overlay {
-  opacity: 0.8;
-}
-
-.timer{
-	color: white;
 }
 
 .parallax {
@@ -207,4 +213,98 @@ hr{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* form starting stylings ------------------------------- */
+.group 			  { 
+  position:relative; 
+  margin-bottom:7vh; 
+}
+input 				{
+  font-size:12px;
+  padding:2vh 2vh 2vh 1vh;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#a9a9a9; 
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:12px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:80%px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  left: 0;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:25%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:0%; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
 }
