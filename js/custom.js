@@ -33,6 +33,10 @@ $("#alumniregs").click(function(){
      fetchSection('alumniregs');
 });
 
+$("#beyondthewall").click(function(){
+      fetchSection('beyondthewall');
+});
+
 var scrollpos = window.scrollY;
 var header = document.getElementById("navbar");
 var windowheight = window.innerHeight;
