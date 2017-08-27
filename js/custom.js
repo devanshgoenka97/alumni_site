@@ -2,18 +2,22 @@ function fetchSection(url){
 	$("#fillable").load("cms.html #"+url+"wrapper");
 }
 
-setTimeout(function(){
+/*setTimeout(function(){
          $("#overlay").css('visibility','visible');
 },0);
+*/
+$(window).on('load',function(){
+    $("#overlay").css('visibility','visible');
+    setTimeout(function(){
+    $("#overlay").css('visibility','hidden');
+    $("#home").trigger('click');
+    $('.carousel').carousel({
+          interval: 2000
+      });
+    },3000);
+});
 
 $(document).ready(function(){
-  setTimeout(function(){
-     $("#home").trigger('click');
-     $("#overlay").css('visibility','hidden');
-  },3000);
-   $('.carousel').carousel({
-  interval: 2000
-});
 });
 
 $("#home").click(function(){
