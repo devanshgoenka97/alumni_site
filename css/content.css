@@ -108,7 +108,6 @@ hr{
 
 .last-card{
 	width: 18%;
-	background-color: #fff;
 }
 
 .card-header{
@@ -126,6 +125,17 @@ hr{
 .links-row{
 	margin-top: 3vh;
 	background-color: #fff;
+}
+
+.login-row{
+  background-color: #fff;
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.quote-row{
+  margin-top: 3vh;
+  padding: 1vh 1vh 1vh 1vh;
+  background-color: white;    
 }
 
 .event-list{
@@ -225,7 +235,7 @@ hr{
 .welcome-text-wrap{
    position: absolute;
    top:4%;
-   left: 15%;
+   font-family: 'Raleway';
 }
 
 .notable-alumni-wrap{
@@ -238,6 +248,40 @@ hr{
    font-size: 24px;	
    font-family: 'Raleway';
    color: black;
+}
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
 }
 
 .parallax {
