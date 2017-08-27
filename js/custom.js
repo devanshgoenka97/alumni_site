@@ -2,8 +2,15 @@ function fetchSection(url){
 	$("#fillable").load("cms.html #"+url+"wrapper");
 }
 
+setTimeout(function(){
+         $("#overlay").css('visibility','visible');
+},0);
+
 $(document).ready(function(){
-   $("#home").trigger('click');
+  setTimeout(function(){
+     $("#home").trigger('click');
+     $("#overlay").css('visibility','hidden');
+  },3000);
    $('.carousel').carousel({
   interval: 2000
 });
