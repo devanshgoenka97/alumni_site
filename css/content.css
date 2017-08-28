@@ -140,6 +140,11 @@ hr{
      .bottom-nav{
       display: none;
      }
+
+     #fillable{
+       margin-left: 0;
+       margin-right: 0;
+     }
 }
 
 
