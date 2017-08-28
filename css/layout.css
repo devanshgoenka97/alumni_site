@@ -2,16 +2,20 @@
 	z-index: 1000;
 	position: fixed;
 	width: 100%;
-	top:45%;
-	left: 45%;
+    height: 100%;
     background-color:#eee;
     visibility: hidden;
+}
+
+#loader{
+	position: absolute;
+	top:45%;
+	left: 45%;
 }
 	
 .header{
 	background-color: #eee;
 	color:black;	
-	height: 18vh;
 }
 
 body{
@@ -124,7 +128,6 @@ body{
 
 .content{
 	position: relative;
-	min-height: 520px;
 }
 
 .main-content{
@@ -142,6 +145,23 @@ body{
 	min-height: 40px;
 	max-height: 40px;
 	font-family: 'Acme', sans-serif;
+}
+
+.bottom-nav{
+	background-color: #00274d;
+	height: 8vh;
+}
+
+.bot-nav{
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin: 2vh 2vh 2vh 2vh;
+}
+
+.bot-nav:hover{
+	color: #9d9d9d;
+	text-decoration: none;
 }
 
 .affix{

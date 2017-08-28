@@ -110,6 +110,39 @@ hr{
 	width: 18%;
 }
 
+@media only screen and (max-width: 767px){
+
+     .first-card,.middle-card,.last-card{
+      width: 100%;
+      margin: 0;
+     }
+
+     .primary-text{
+      text-align: center;
+     }
+
+     .social-icons{
+      display: none;
+     }
+
+     #objectives{
+      height: 500px;
+     }
+
+     .links-row{
+      margin-bottom: 3vh;
+     }
+
+     .notable-alumni-wrap{
+      margin-bottom: 3vh;
+     }
+
+     .bottom-nav{
+      display: none;
+     }
+}
+
+
 .card-header{
 	padding-top: 2vh;
 	padding-bottom: 2vh;
@@ -434,4 +467,28 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
+}
+
+
+/*Image Gallery*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
 }

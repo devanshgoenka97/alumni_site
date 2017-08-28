@@ -9,8 +9,8 @@ function fetchSection(url){
 $(window).on('load',function(){
     $("#overlay").css('visibility','visible');
     setTimeout(function(){
-    $("#overlay").css('visibility','hidden');
     $("#home").trigger('click');
+    $("#overlay").css('visibility','hidden');
     $('.carousel').carousel({
           interval: 2000
       });
@@ -46,6 +46,10 @@ $("#alumniregs").click(function(){
 
 $("#beyondthewall").click(function(){
       fetchSection('beyondthewall');
+});
+
+$("#photogallery").click(function(){
+      fetchSection('photo');
 });
 
 var scrollpos = window.scrollY;
