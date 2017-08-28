@@ -145,6 +145,17 @@ hr{
        margin-left: 0;
        margin-right: 0;
      }
+
+     #navbar{
+      left: 0;
+      width: 100%;
+     }
+
+     .row{
+      margin-right: 0;
+      margin-left:0;
+     }
+
 }
 
 
