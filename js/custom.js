@@ -67,7 +67,7 @@ function remove_class_on_scroll() {
 
 window.addEventListener('scroll', function() {
   scrollpos = window.scrollY;
-  if (scrollpos > 66)  {
+  if (scrollpos > 70)  {
     add_class_on_scroll();
   } else {
     remove_class_on_scroll();

@@ -121,6 +121,10 @@ body{
 	color: white;  
 }
 
+.nav-wrapper{
+	min-height: 50px;
+}
+
 .no-left-right-padding{
 	padding-left: 30px;
 	padding-right: 0px;

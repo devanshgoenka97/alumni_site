@@ -19,6 +19,10 @@ hr{
 	height: 36vh;
 }
 
+.imagecontainer{
+   margin-left: 30vh;
+}
+
 .messagefromdeancontent{
 	margin-top: 6vh;
 	margin-bottom: 6vh;
@@ -79,13 +83,13 @@ hr{
 }
 
 .team-text{
-	height: 200px;
+	height: 30vh;
 	background-color: #fff;
 }
 
 .team-image{
 	width: 100%;
-	height: 200px;
+	height: 30vh;
 }
 
 .shadow{
@@ -154,6 +158,53 @@ hr{
      .row{
       margin-right: 0;
       margin-left:0;
+     }
+
+     .team-text{
+       padding: 2vh;
+       height: 25vh;
+     }
+
+     .team-image{
+        height: 50vh;
+     }
+
+     #mainheader{
+      margin-top: 0;
+      margin-bottom:0;
+     }
+
+     .col-md-3{
+        padding-left: 0;
+        padding-right: 0;
+     }
+
+     .imagecontainer{
+       margin-left: 0;
+     }
+
+     .imagedescription{
+        padding: 3vh;
+        height: 30vh;
+     }
+
+     #deanimage{
+       height: 50vh;
+     }
+
+
+     .messagewrapper{
+       padding: 2vh;
+     }
+
+      .row .gallery{
+       width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+     }
+
+     .foot{
+       line-height: 20px;
      }
 
 }
@@ -491,7 +542,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 35vh;
 }
 
 div.gallery:hover {
