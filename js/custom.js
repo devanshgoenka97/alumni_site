@@ -54,8 +54,8 @@ $("#photogallery").click(function(){
 
 var scrollpos = window.scrollY;
 var header = document.getElementById("navbar");
-var windowheight = window.innerHeight;
 var headerheight = document.getElementById("header").offsetHeight;
+var scrollheight = headerheight - 50;
 
 function add_class_on_scroll() {
   header.classList.add("affix");
@@ -67,7 +67,7 @@ function remove_class_on_scroll() {
 
 window.addEventListener('scroll', function() {
   scrollpos = window.scrollY;
-  if (scrollpos > 70)  {
+  if (scrollpos > scrollheight)  {
     add_class_on_scroll();
   } else {
     remove_class_on_scroll();
