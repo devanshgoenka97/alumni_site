@@ -36,6 +36,10 @@
       margin-right: 0;
      }
 
+     .notable-img{
+       top: 0;
+     }
+
      .bottom-nav{
       display: none;
      }
