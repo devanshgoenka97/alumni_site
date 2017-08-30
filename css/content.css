@@ -8,6 +8,10 @@ hr{
 	padding-left: 8vh;
 }
 
+.home-main-row{
+  height: auto;
+}
+
 #deanimage{
 	height: 36vh;
 	width: 100%;
@@ -113,122 +117,6 @@ hr{
 .last-card{
 	width: 18%;
 }
-
-@media only screen and (max-width: 767px){
-
-     #homewrapper{
-       padding-left: 0;
-     }
-
-     .first-card,.middle-card,.last-card{
-      width: 100%;
-      margin: 0;
-     }
-
-     .primary-text{
-      text-align: center;
-     }
-
-     .social-icons{
-      display: none;
-     }
-
-     #objectives{
-      height: 500px;
-     }
-
-     .links-row{
-      margin-bottom: 3vh;
-     }
-
-     .notable-alumni-wrap{
-      margin-bottom: 3vh;
-     }
-
-     .bottom-nav{
-      display: none;
-     }
-
-     #fillable{
-       margin-left: 0;
-       margin-right: 0;
-     }
-
-     #navbar{
-      left: 0;
-      width: 100%;
-     }
-
-     .row{
-      margin-right: 0;
-      margin-left:0;
-     }
-
-     .team-text{
-       padding: 2vh;
-       height: 25vh;
-     }
-
-     .team-image{
-        height: 50vh;
-     }
-
-     #mainheader{
-      margin-top: 0;
-      margin-bottom:0;
-     }
-
-     .col-md-3{
-        padding-left: 0;
-        padding-right: 0;
-     }
-
-     .col-md-10{
-       padding-left: 0;
-       padding-right: 0;
-     }
-
-     .imagecontainer{
-       margin-left: 0;
-     }
-
-     .imagedescription{
-        padding: 3vh;
-        height: 30vh;
-     }
-
-     #deanimage{
-       height: 50vh;
-     }
-
-
-     .messagewrapper{
-       padding: 2vh;
-     }
-
-      .row .gallery{
-       width: 100%;
-       margin-left: 0;
-       margin-right: 0;
-     }
-
-     .row .btw-image{
-        width: 100%;
-        height: 35vh;
-     }
-
-     .row .btw-text{
-        margin-left: 0;
-        width: 100%;
-        height: 20vh;
-     }
-
-     .foot{
-       line-height: 20px;
-     }
-
-}
-
 
 .card-header{
 	padding-top: 2vh;
@@ -359,6 +247,7 @@ hr{
 }
 
 .notable-alumni-wrap{
+  width: 98%;
   background-color: white;
   margin-top: 4vh;
   padding-bottom: 4vh;
