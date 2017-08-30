@@ -52,6 +52,18 @@ $("#photogallery").click(function(){
       fetchSection('photo');
 });
 
+$("#alumnistudentmentorship").click(function(){
+      fetchSection('alumnistudentmentorship');
+});
+
+$("#iiiprogramme").click(function(){
+      fetchSection('iiiprogramme');
+});
+
+$("#studentvolunteers").click(function(){
+      fetchSection('studentvolunteers');
+});
+
 var scrollpos = window.scrollY;
 var header = document.getElementById("navbar");
 var headerheight = document.getElementById("header").offsetHeight;
