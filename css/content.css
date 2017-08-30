@@ -4,6 +4,24 @@ hr{
    opacity: 0.3;
 }
 
+.reg-form{
+  font-family: 'Raleway';
+  background-color: white;
+}
+
+.control-label{
+  color: black;
+}
+
+.searchalumni{
+  background-color: white;
+  min-height: 300px;
+}
+
+.btn{
+  color: black;
+}
+
 #homewrapper{
 	padding-left: 8vh;
 }
