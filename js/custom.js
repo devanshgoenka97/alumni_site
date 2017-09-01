@@ -2,21 +2,6 @@ function fetchSection(url){
 	$("#fillable").load("cms.html #"+url+"wrapper");
 }
 
-/*setTimeout(function(){
-         $("#overlay").css('visibility','visible');
-},0);
-*/
-$(window).on('load',function(){
-    $("#overlay").css('visibility','visible');
-    setTimeout(function(){
-    $("#home").trigger('click');
-    $("#overlay").css('visibility','hidden');
-    $('.carousel').carousel({
-          interval: 2000
-      });
-    },3000);
-});
-
 $(document).ready(function(){
 });
 
@@ -62,6 +47,18 @@ $("#iiiprogramme").click(function(){
 
 $("#studentvolunteers").click(function(){
       fetchSection('studentvolunteers');
+});
+
+$("#alumnistats").click(function(){
+      fetchSection('alumnistats');
+});
+
+$("#popularlectures").click(function(){
+      fetchSection('popularlectures');
+});
+
+$("#studentalumnimeet").click(function(){
+      fetchSection('studentalumnimeet');
 });
 
 var scrollpos = window.scrollY;

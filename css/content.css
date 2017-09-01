@@ -4,6 +4,10 @@ hr{
    opacity: 0.3;
 }
 
+th{
+  text-align: center;
+}
+
 .reg-form{
   font-family: 'Raleway';
   background-color: white;
