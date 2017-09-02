@@ -231,10 +231,9 @@ form .login{
 	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.carousel-inner>.item>.row>.col-md-4>img{
-	box-shadow: -8px 4px 8px 0 rgba(0, 0, 0, 0.4), -4px 6px 20px 0 rgba(0, 0, 0, 0.4);
-	width: 100%;
-	height: 40vh;
+#notablealumniCarousel{
+  margin-left: 10vh;
+  width: 90%;
 }
 
 #newreg{
@@ -300,17 +299,7 @@ form .login{
   font-family: 'Raleway'; 
 }
 
-.btw-first{
-  position: relative;
-  margin-top: 4vh;
-}
-
-.btw-second{
-  position: relative;
-  margin-top: 4vh;
-}
-
-.btw-third{
+.btw-label{
   position: relative;
   margin-top: 4vh;
 }
@@ -496,7 +485,6 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: auto;
 }
 
 div.desc {
