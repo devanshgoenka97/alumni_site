@@ -41,6 +41,15 @@
       height: 500px;
      }
 
+     #notablealumniCarousel{
+      margin-left: 0;
+      width: 100%;
+     }
+
+     .col-md-3 .gallery a img{
+      height: 300px;
+     }
+
      .links-row{
       margin-bottom: 3vh;
      }
