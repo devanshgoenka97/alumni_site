@@ -309,6 +309,12 @@ form .login{
    padding: 0;
 }
 
+.btw-modal-image{
+  height: 450px;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
 .btw-text{
   background-color: #fff;
   font-family: 'Raleway';

@@ -168,6 +168,10 @@
         height: 38vh;
      }
 
+     .btw-modal-image{
+       height: auto;
+     }
+
      h4{
       font-size: 14px;
      }
