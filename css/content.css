@@ -236,6 +236,10 @@ form .login{
   width: 90%;
 }
 
+.col-md-3 .gallery .desc{
+  height: 10vh;
+}
+
 #newreg{
 	display: inline-block;
 }
