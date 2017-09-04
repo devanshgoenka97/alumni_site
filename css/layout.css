@@ -36,6 +36,11 @@ body{
 	margin-top: 10px;
 }
 
+.sub-header{
+	font-size: 12px;
+	font-weight: 400;
+}
+
 .secondary-text{
 	margin-top: 10px;
 	text-align: center;

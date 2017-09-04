@@ -67,10 +67,6 @@
        padding: 2vh;
      }
 
-     .notable-img{
-       display: none;
-     }
-
      .carousel-inner>.item>img{
         height: 60vh;
      }
@@ -170,6 +166,18 @@
 
      .btw-modal-image{
        height: auto;
+     }
+
+     .modal-body .col-md-4{
+      text-align: center;
+     }
+
+     #alumniawardswrapper .gallery{
+       width: 100%;
+     }
+
+     #alumniawardswrapper .gallery a img{
+      height: auto;
      }
 
      h4{

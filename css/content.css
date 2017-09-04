@@ -283,14 +283,6 @@ form .login{
   padding-bottom: 4vh;
 }
 
-.notable-img{
-  position: absolute;
-  right: 5%;
-  top: 4%;
-  height: 100px;
-  width: 100px;
-}
-
 .parallax-text{
    font-size: 24px;	
    font-family: 'Raleway';
