@@ -65,6 +65,10 @@ $("#alumniawards").click(function(){
       fetchSection('alumniawards');
 });
 
+$("#alumniservices").click(function(){
+      fetchSection('alumniservices');
+});
+
 var scrollpos = window.scrollY;
 var header = document.getElementById("navbar");
 var headerheight = document.getElementById("header").offsetHeight;
